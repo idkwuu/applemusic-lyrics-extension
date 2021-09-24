@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Lyrics for Apple Music web",
+  "version": "1.0",
+  "description": "lyrics lmao",
+  "icons": {
+    "48": "icons/48.png",
+    "96": "icons/96.png"
+  },
+  "browser_action": {
+    "browser_style": true,
+    "default_popup": "main.html",
+    "default_icon": {
+      "16": "icons/16.png",
+      "32": "icons/32.png"
+    }
+  },
+  "sidebar_action": {
+    "default_title": "Apple Music lyrics",
+    "default_panel": "main.html",
+    "default_icon": "icons/96.png"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ]
+}
