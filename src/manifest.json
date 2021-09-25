@@ -23,5 +23,10 @@
   "permissions": [
     "activeTab",
     "tabs"
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "applemusic-lyrics-extension@idkwuu.dev"
+    }
+  }
 }
